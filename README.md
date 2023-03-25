@@ -28,13 +28,22 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ##Steps To Setup Project
+
 1.Install nodejs, vscode
 2.install angular cli using "npm install -g @angular/cli"
-3.Run this command next "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned"
+
+3.Run this command next "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned"  
+
 4.ng new projectname
+
 5.ng serve [ to run the project and define the port ]
+
 6.ng build [creates physical path ex.dist/ ]
+
 7.ng g compnent componentName ["to create new component"]
+
 8.setup the path in app.rounting.module.ts
+
 9.add path to newly created component.html
+
   dont forget to add <router-outlet> </router-outlet>
