@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { StudentModel } from './student.model';
 
 @Component({
   selector: 'app-studentcomponent',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./studentcomponent.component.css']
 })
 export class StudentcomponentComponent {
+  title = 'Student Details';
 
+  stdObj:StudentModel = new StudentModel();
 }
