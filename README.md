@@ -47,3 +47,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 9.add path to newly created component.html
 
   dont forget to add <router-outlet> </router-outlet>
+  
+10.Done Data Binding using ngModel from student.model.ts to student html
+
+
